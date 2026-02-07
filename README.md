@@ -17,48 +17,11 @@ End-to-end data pipeline transforming raw FHIR healthcare data into analytics-re
 **Solution:** Automated pipeline that transforms raw FHIR data → structured analytics tables → trial-ready patient cohorts.
 
 
-
 ## Architecture
 
-┌──────────────────────────────────────────────────────────┐
-│  Synthetic FHIR Data Generation                          │
-│  1. 50 patients with realistic demographics              │
-│  2.Type 2 Diabetes, Hypertension, Hyperlipidemia         │
-│  3. Medications (Metformin, Lisinopril, Atorvastatin)    │
-│  4. Lab results (HbA1c, Glucose)                         │
-│  5. Unstructured clinical notes                          │
-└────────────────┬─────────────────────────────────────────┘
-                 │
-                 ▼
-┌─────────────────────────────────────────────────────────┐
-│  Data Ingestion (DuckDB)                                │
-│  1.Load FHIR JSON → DuckDB tables                       │
-│  2. 5 raw tables: patients, conditions, medications,    │
-│    observations, clinical_notes                         │
-└────────────────┬────────────────────────────────────────┘
-                 │
-                 ▼
-┌─────────────────────────────────────────────────────────┐
-│  dbt Transformation Layer                               │
-│  Staging Models:                                        │
-│  1.stg_patients: Flatten nested FHIR, calculate age     │
-│  2.stg_conditions: Extract ICD-10 diagnoses             │
-│  3.stg_medications: Parse RxNorm codes                  │
-│  4.stg_observations: Standardize LOINC lab results      │
-│                                                         │
-│  Analytics Marts:                                       │
-│  1.patient_clinical_summary: 360° patient view          │
-│  2.cohort_diabetes_trial: Trial-eligible patients       │
-└────────────────┬────────────────────────────────────────┘
-                 │
-                 ▼
-┌─────────────────────────────────────────────────────────┐
-│  Outputs                                                │
-│  - Trial-ready patient cohorts with priority scoring    │
-│  - Analytics-ready tables for data science              │
-│  - Data quality validation (11 automated tests)         │
-└─────────────────────────────────────────────────────────┘
+![EHR Analytics Pipeline Architecture](docs/architecture-diagram.png)
 
+*End-to-end data transformation from synthetic FHIR generation through dbt staging and marts to analytics-ready clinical trial cohorts.*
 
 ## Quick Start
 
@@ -129,28 +92,47 @@ dbt test
 | **Standards** | FHIR, ICD-10, RxNorm, LOINC | Healthcare data interoperability |
 | **Version Control** | Git, GitHub | Code management and portfolio |
 
-
 ## Project Structure
+```mermaid
+graph TD
+    A[ehr-analytics-pipeline/]
+    A --> B[data/]
+    B --> B1[raw/]
+    B1 --> B1a[patients.json]
+    B1 --> B1b[conditions.json]
+    B1 --> B1c[medications.json]
+    B1 --> B1d[observations.json]
+    B1 --> B1e[clinical_notes.json]
+    B --> B2[ehr_analytics.duckdb]
+    
+    A --> C[scripts/]
+    C --> C1[generate_fhir_data.py]
+    C --> C2[load_data_to_duckdb.py]
+    
+    A --> D[dbt_ehr_project/]
+    D --> D1[models/]
+    D1 --> D2[staging/]
+    D2 --> D2a[sources.yml]
+    D2 --> D2b[schema.yml]
+    D2 --> D2c[stg_patients.sql]
+    D2 --> D2d[stg_conditions.sql]
+    D2 --> D2e[stg_medications.sql]
+    D2 --> D2f[stg_observations.sql]
+    
+    D1 --> D3[marts/]
+    D3 --> D3a[patient_clinical_summary.sql]
+    D3 --> D3b[cohort_diabetes_trial.sql]
+    
+    A --> E[requirements.txt]
+    A --> F[README.md]
+    
+    style A fill:#e3f2fd
+    style B fill:#fff3e0
+    style C fill:#f3e5f5
+    style D fill:#e8f5e9
+    style D2 fill:#fff9c4
+    style D3 fill:#fce4ec
 ```
-ehr-analytics-pipeline/
-├── data/
-│   ├── raw/                      # Source FHIR JSON files
-│   └── ehr_analytics.duckdb      # Analytical database
-├── scripts/
-│   ├── generate_fhir_data.py     # Synthetic data generator
-│   └── load_data_to_duckdb.py    # Database loader
-├── dbt_ehr_project/
-│   └── models/
-│       ├── staging/              # Clean & standardize
-│       │   ├── stg_patients.sql
-│       │   ├── stg_conditions.sql
-│       │   ├── stg_medications.sql
-│       │   └── stg_observations.sql
-│       └── marts/                # Business logic
-│           ├── patient_clinical_summary.sql
-│           └── cohort_diabetes_trial.sql
-└── requirements.txt
-
 ## Data Quality
 
 **11 Automated Tests:**

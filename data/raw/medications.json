@@ -1,0 +1,2016 @@
+[
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-1",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "617310",
+          "display": "Atorvastatin 20 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-1"
+    },
+    "authoredOn": "2025-10-05T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-2",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "197494",
+          "display": "Lisinopril 10 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-2"
+    },
+    "authoredOn": "2025-11-16T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-3",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "860975",
+          "display": "Metformin 500 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-2"
+    },
+    "authoredOn": "2025-06-20T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-4",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "860975",
+          "display": "Metformin 500 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-3"
+    },
+    "authoredOn": "2025-10-22T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-5",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "197494",
+          "display": "Lisinopril 10 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-4"
+    },
+    "authoredOn": "2025-12-19T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-6",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "617310",
+          "display": "Atorvastatin 20 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-4"
+    },
+    "authoredOn": "2025-08-18T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-7",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "617310",
+          "display": "Atorvastatin 20 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-4"
+    },
+    "authoredOn": "2025-03-21T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-8",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "860975",
+          "display": "Metformin 500 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-5"
+    },
+    "authoredOn": "2025-12-18T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-9",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "617310",
+          "display": "Atorvastatin 20 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-5"
+    },
+    "authoredOn": "2025-05-22T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-10",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "617310",
+          "display": "Atorvastatin 20 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-5"
+    },
+    "authoredOn": "2025-04-02T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-11",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "860975",
+          "display": "Metformin 500 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-6"
+    },
+    "authoredOn": "2025-06-03T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-12",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "197494",
+          "display": "Lisinopril 10 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-6"
+    },
+    "authoredOn": "2025-07-31T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-13",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "860975",
+          "display": "Metformin 500 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-7"
+    },
+    "authoredOn": "2025-09-07T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-14",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "197494",
+          "display": "Lisinopril 10 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-7"
+    },
+    "authoredOn": "2025-08-28T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-15",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "197494",
+          "display": "Lisinopril 10 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-7"
+    },
+    "authoredOn": "2025-06-01T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-16",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "617310",
+          "display": "Atorvastatin 20 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-8"
+    },
+    "authoredOn": "2025-09-13T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-17",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "197494",
+          "display": "Lisinopril 10 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-8"
+    },
+    "authoredOn": "2025-02-07T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-18",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "617310",
+          "display": "Atorvastatin 20 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-8"
+    },
+    "authoredOn": "2025-12-10T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-19",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "617310",
+          "display": "Atorvastatin 20 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-9"
+    },
+    "authoredOn": "2025-09-05T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-20",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "197494",
+          "display": "Lisinopril 10 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-10"
+    },
+    "authoredOn": "2025-09-06T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-21",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "860975",
+          "display": "Metformin 500 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-10"
+    },
+    "authoredOn": "2025-06-10T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-22",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "860975",
+          "display": "Metformin 500 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-10"
+    },
+    "authoredOn": "2025-06-16T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-23",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "617310",
+          "display": "Atorvastatin 20 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-11"
+    },
+    "authoredOn": "2025-04-08T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-24",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "617310",
+          "display": "Atorvastatin 20 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-11"
+    },
+    "authoredOn": "2025-02-18T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-25",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "197494",
+          "display": "Lisinopril 10 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-11"
+    },
+    "authoredOn": "2025-04-21T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-26",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "197494",
+          "display": "Lisinopril 10 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-12"
+    },
+    "authoredOn": "2025-03-10T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-27",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "617310",
+          "display": "Atorvastatin 20 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-13"
+    },
+    "authoredOn": "2025-02-15T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-28",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "197494",
+          "display": "Lisinopril 10 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-13"
+    },
+    "authoredOn": "2025-11-19T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-29",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "197494",
+          "display": "Lisinopril 10 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-13"
+    },
+    "authoredOn": "2025-06-08T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-30",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "197494",
+          "display": "Lisinopril 10 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-14"
+    },
+    "authoredOn": "2026-01-05T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-31",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "617310",
+          "display": "Atorvastatin 20 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-14"
+    },
+    "authoredOn": "2025-10-15T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-32",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "197494",
+          "display": "Lisinopril 10 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-15"
+    },
+    "authoredOn": "2026-01-25T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-33",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "617310",
+          "display": "Atorvastatin 20 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-15"
+    },
+    "authoredOn": "2025-10-29T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-34",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "860975",
+          "display": "Metformin 500 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-16"
+    },
+    "authoredOn": "2025-05-27T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-35",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "860975",
+          "display": "Metformin 500 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-16"
+    },
+    "authoredOn": "2025-11-08T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-36",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "860975",
+          "display": "Metformin 500 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-16"
+    },
+    "authoredOn": "2025-08-18T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-37",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "617310",
+          "display": "Atorvastatin 20 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-17"
+    },
+    "authoredOn": "2025-09-06T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-38",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "617310",
+          "display": "Atorvastatin 20 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-17"
+    },
+    "authoredOn": "2025-03-10T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-39",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "617310",
+          "display": "Atorvastatin 20 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-18"
+    },
+    "authoredOn": "2025-12-03T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-40",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "617310",
+          "display": "Atorvastatin 20 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-19"
+    },
+    "authoredOn": "2025-05-23T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-41",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "617310",
+          "display": "Atorvastatin 20 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-20"
+    },
+    "authoredOn": "2026-01-25T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-42",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "617310",
+          "display": "Atorvastatin 20 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-21"
+    },
+    "authoredOn": "2025-02-12T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-43",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "860975",
+          "display": "Metformin 500 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-21"
+    },
+    "authoredOn": "2026-01-22T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-44",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "860975",
+          "display": "Metformin 500 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-22"
+    },
+    "authoredOn": "2025-03-23T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-45",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "860975",
+          "display": "Metformin 500 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-23"
+    },
+    "authoredOn": "2026-01-01T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-46",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "860975",
+          "display": "Metformin 500 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-23"
+    },
+    "authoredOn": "2026-01-05T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-47",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "617310",
+          "display": "Atorvastatin 20 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-23"
+    },
+    "authoredOn": "2025-04-21T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-48",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "860975",
+          "display": "Metformin 500 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-24"
+    },
+    "authoredOn": "2025-06-10T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-49",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "617310",
+          "display": "Atorvastatin 20 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-24"
+    },
+    "authoredOn": "2025-11-19T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-50",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "617310",
+          "display": "Atorvastatin 20 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-24"
+    },
+    "authoredOn": "2026-01-13T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-51",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "197494",
+          "display": "Lisinopril 10 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-25"
+    },
+    "authoredOn": "2026-01-24T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-52",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "617310",
+          "display": "Atorvastatin 20 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-25"
+    },
+    "authoredOn": "2025-07-18T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-53",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "860975",
+          "display": "Metformin 500 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-25"
+    },
+    "authoredOn": "2026-01-04T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-54",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "860975",
+          "display": "Metformin 500 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-26"
+    },
+    "authoredOn": "2025-08-23T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-55",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "617310",
+          "display": "Atorvastatin 20 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-26"
+    },
+    "authoredOn": "2025-03-25T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-56",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "197494",
+          "display": "Lisinopril 10 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-26"
+    },
+    "authoredOn": "2025-09-25T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-57",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "860975",
+          "display": "Metformin 500 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-27"
+    },
+    "authoredOn": "2025-07-16T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-58",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "197494",
+          "display": "Lisinopril 10 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-27"
+    },
+    "authoredOn": "2025-05-22T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-59",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "860975",
+          "display": "Metformin 500 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-27"
+    },
+    "authoredOn": "2026-01-15T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-60",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "197494",
+          "display": "Lisinopril 10 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-28"
+    },
+    "authoredOn": "2025-08-15T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-61",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "197494",
+          "display": "Lisinopril 10 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-28"
+    },
+    "authoredOn": "2025-12-20T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-62",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "617310",
+          "display": "Atorvastatin 20 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-28"
+    },
+    "authoredOn": "2025-11-12T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-63",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "617310",
+          "display": "Atorvastatin 20 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-29"
+    },
+    "authoredOn": "2025-07-20T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-64",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "617310",
+          "display": "Atorvastatin 20 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-29"
+    },
+    "authoredOn": "2025-09-20T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-65",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "197494",
+          "display": "Lisinopril 10 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-29"
+    },
+    "authoredOn": "2025-11-24T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-66",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "617310",
+          "display": "Atorvastatin 20 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-30"
+    },
+    "authoredOn": "2025-02-14T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-67",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "197494",
+          "display": "Lisinopril 10 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-30"
+    },
+    "authoredOn": "2025-03-22T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-68",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "197494",
+          "display": "Lisinopril 10 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-31"
+    },
+    "authoredOn": "2025-09-07T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-69",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "617310",
+          "display": "Atorvastatin 20 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-31"
+    },
+    "authoredOn": "2026-01-01T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-70",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "860975",
+          "display": "Metformin 500 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-31"
+    },
+    "authoredOn": "2025-04-04T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-71",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "617310",
+          "display": "Atorvastatin 20 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-32"
+    },
+    "authoredOn": "2025-06-03T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-72",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "617310",
+          "display": "Atorvastatin 20 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-32"
+    },
+    "authoredOn": "2025-04-28T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-73",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "617310",
+          "display": "Atorvastatin 20 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-33"
+    },
+    "authoredOn": "2025-11-29T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-74",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "197494",
+          "display": "Lisinopril 10 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-34"
+    },
+    "authoredOn": "2025-09-10T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-75",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "197494",
+          "display": "Lisinopril 10 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-34"
+    },
+    "authoredOn": "2025-12-19T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-76",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "860975",
+          "display": "Metformin 500 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-35"
+    },
+    "authoredOn": "2025-07-23T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-77",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "197494",
+          "display": "Lisinopril 10 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-35"
+    },
+    "authoredOn": "2025-03-06T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-78",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "617310",
+          "display": "Atorvastatin 20 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-35"
+    },
+    "authoredOn": "2025-10-23T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-79",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "617310",
+          "display": "Atorvastatin 20 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-36"
+    },
+    "authoredOn": "2025-08-29T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-80",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "860975",
+          "display": "Metformin 500 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-37"
+    },
+    "authoredOn": "2025-02-18T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-81",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "860975",
+          "display": "Metformin 500 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-38"
+    },
+    "authoredOn": "2025-09-25T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-82",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "617310",
+          "display": "Atorvastatin 20 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-39"
+    },
+    "authoredOn": "2026-01-07T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-83",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "860975",
+          "display": "Metformin 500 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-40"
+    },
+    "authoredOn": "2025-11-23T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-84",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "197494",
+          "display": "Lisinopril 10 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-41"
+    },
+    "authoredOn": "2025-08-23T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-85",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "197494",
+          "display": "Lisinopril 10 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-42"
+    },
+    "authoredOn": "2025-07-04T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-86",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "860975",
+          "display": "Metformin 500 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-42"
+    },
+    "authoredOn": "2025-11-08T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-87",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "860975",
+          "display": "Metformin 500 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-42"
+    },
+    "authoredOn": "2025-10-29T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-88",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "860975",
+          "display": "Metformin 500 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-43"
+    },
+    "authoredOn": "2026-01-09T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-89",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "860975",
+          "display": "Metformin 500 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-43"
+    },
+    "authoredOn": "2025-03-03T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-90",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "617310",
+          "display": "Atorvastatin 20 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-44"
+    },
+    "authoredOn": "2025-10-16T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-91",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "617310",
+          "display": "Atorvastatin 20 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-44"
+    },
+    "authoredOn": "2025-12-29T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-92",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "617310",
+          "display": "Atorvastatin 20 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-45"
+    },
+    "authoredOn": "2025-12-17T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-93",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "860975",
+          "display": "Metformin 500 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-45"
+    },
+    "authoredOn": "2025-05-30T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-94",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "617310",
+          "display": "Atorvastatin 20 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-45"
+    },
+    "authoredOn": "2025-09-02T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-95",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "197494",
+          "display": "Lisinopril 10 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-46"
+    },
+    "authoredOn": "2025-12-31T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-96",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "617310",
+          "display": "Atorvastatin 20 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-46"
+    },
+    "authoredOn": "2025-05-23T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-97",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "197494",
+          "display": "Lisinopril 10 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-46"
+    },
+    "authoredOn": "2025-03-06T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-98",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "860975",
+          "display": "Metformin 500 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-47"
+    },
+    "authoredOn": "2025-11-09T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-99",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "860975",
+          "display": "Metformin 500 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-48"
+    },
+    "authoredOn": "2025-03-28T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-100",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "617310",
+          "display": "Atorvastatin 20 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-48"
+    },
+    "authoredOn": "2025-04-25T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-101",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "860975",
+          "display": "Metformin 500 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-48"
+    },
+    "authoredOn": "2025-04-23T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-102",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "197494",
+          "display": "Lisinopril 10 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-49"
+    },
+    "authoredOn": "2025-09-11T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-103",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "197494",
+          "display": "Lisinopril 10 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-49"
+    },
+    "authoredOn": "2025-06-13T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-104",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "617310",
+          "display": "Atorvastatin 20 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-50"
+    },
+    "authoredOn": "2026-01-30T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-105",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "617310",
+          "display": "Atorvastatin 20 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-50"
+    },
+    "authoredOn": "2025-04-14T10:25:17+00:00"
+  },
+  {
+    "resourceType": "MedicationRequest",
+    "id": "medication-106",
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "860975",
+          "display": "Metformin 500 MG"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-50"
+    },
+    "authoredOn": "2025-08-11T10:25:17+00:00"
+  }
+]

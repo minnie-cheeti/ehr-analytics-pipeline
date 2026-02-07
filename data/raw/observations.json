@@ -1,0 +1,2402 @@
+[
+  {
+    "resourceType": "Observation",
+    "id": "observation-1",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-1"
+    },
+    "effectiveDateTime": "2025-12-23T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "4548-4",
+          "display": "Hemoglobin A1c/Hemoglobin.total in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 6.7,
+      "unit": "%",
+      "system": "http://unitsofmeasure.org",
+      "code": "%"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "observation-2",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-1"
+    },
+    "effectiveDateTime": "2025-10-08T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "2339-0",
+          "display": "Glucose [Mass/volume] in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 167,
+      "unit": "mg/dL",
+      "system": "http://unitsofmeasure.org",
+      "code": "mg/dL"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "observation-3",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-2"
+    },
+    "effectiveDateTime": "2026-01-06T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "4548-4",
+          "display": "Hemoglobin A1c/Hemoglobin.total in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 8.1,
+      "unit": "%",
+      "system": "http://unitsofmeasure.org",
+      "code": "%"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "observation-4",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-2"
+    },
+    "effectiveDateTime": "2025-11-10T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "2339-0",
+          "display": "Glucose [Mass/volume] in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 142,
+      "unit": "mg/dL",
+      "system": "http://unitsofmeasure.org",
+      "code": "mg/dL"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "observation-5",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-3"
+    },
+    "effectiveDateTime": "2026-01-29T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "4548-4",
+          "display": "Hemoglobin A1c/Hemoglobin.total in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 6.6,
+      "unit": "%",
+      "system": "http://unitsofmeasure.org",
+      "code": "%"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "observation-6",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-3"
+    },
+    "effectiveDateTime": "2025-10-08T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "2339-0",
+          "display": "Glucose [Mass/volume] in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 100,
+      "unit": "mg/dL",
+      "system": "http://unitsofmeasure.org",
+      "code": "mg/dL"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "observation-7",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-4"
+    },
+    "effectiveDateTime": "2025-09-03T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "4548-4",
+          "display": "Hemoglobin A1c/Hemoglobin.total in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 8.7,
+      "unit": "%",
+      "system": "http://unitsofmeasure.org",
+      "code": "%"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "observation-8",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-4"
+    },
+    "effectiveDateTime": "2026-01-11T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "2339-0",
+          "display": "Glucose [Mass/volume] in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 151,
+      "unit": "mg/dL",
+      "system": "http://unitsofmeasure.org",
+      "code": "mg/dL"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "observation-9",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-5"
+    },
+    "effectiveDateTime": "2025-08-16T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "4548-4",
+          "display": "Hemoglobin A1c/Hemoglobin.total in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 6.8,
+      "unit": "%",
+      "system": "http://unitsofmeasure.org",
+      "code": "%"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "observation-10",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-5"
+    },
+    "effectiveDateTime": "2025-08-16T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "2339-0",
+          "display": "Glucose [Mass/volume] in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 141,
+      "unit": "mg/dL",
+      "system": "http://unitsofmeasure.org",
+      "code": "mg/dL"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "observation-11",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-6"
+    },
+    "effectiveDateTime": "2025-10-29T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "4548-4",
+          "display": "Hemoglobin A1c/Hemoglobin.total in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 6.0,
+      "unit": "%",
+      "system": "http://unitsofmeasure.org",
+      "code": "%"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "observation-12",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-6"
+    },
+    "effectiveDateTime": "2025-09-07T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "2339-0",
+          "display": "Glucose [Mass/volume] in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 105,
+      "unit": "mg/dL",
+      "system": "http://unitsofmeasure.org",
+      "code": "mg/dL"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "observation-13",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-7"
+    },
+    "effectiveDateTime": "2025-12-11T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "4548-4",
+          "display": "Hemoglobin A1c/Hemoglobin.total in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 6.4,
+      "unit": "%",
+      "system": "http://unitsofmeasure.org",
+      "code": "%"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "observation-14",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-7"
+    },
+    "effectiveDateTime": "2025-12-07T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "2339-0",
+          "display": "Glucose [Mass/volume] in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 139,
+      "unit": "mg/dL",
+      "system": "http://unitsofmeasure.org",
+      "code": "mg/dL"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "observation-15",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-8"
+    },
+    "effectiveDateTime": "2025-12-16T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "4548-4",
+          "display": "Hemoglobin A1c/Hemoglobin.total in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 7.5,
+      "unit": "%",
+      "system": "http://unitsofmeasure.org",
+      "code": "%"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "observation-16",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-8"
+    },
+    "effectiveDateTime": "2025-09-11T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "2339-0",
+          "display": "Glucose [Mass/volume] in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 117,
+      "unit": "mg/dL",
+      "system": "http://unitsofmeasure.org",
+      "code": "mg/dL"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "observation-17",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-9"
+    },
+    "effectiveDateTime": "2025-12-10T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "4548-4",
+          "display": "Hemoglobin A1c/Hemoglobin.total in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 9.5,
+      "unit": "%",
+      "system": "http://unitsofmeasure.org",
+      "code": "%"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "observation-18",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-9"
+    },
+    "effectiveDateTime": "2025-10-18T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "2339-0",
+          "display": "Glucose [Mass/volume] in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 113,
+      "unit": "mg/dL",
+      "system": "http://unitsofmeasure.org",
+      "code": "mg/dL"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "observation-19",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-10"
+    },
+    "effectiveDateTime": "2025-12-12T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "4548-4",
+          "display": "Hemoglobin A1c/Hemoglobin.total in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 9.2,
+      "unit": "%",
+      "system": "http://unitsofmeasure.org",
+      "code": "%"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "observation-20",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-10"
+    },
+    "effectiveDateTime": "2025-10-23T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "2339-0",
+          "display": "Glucose [Mass/volume] in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 179,
+      "unit": "mg/dL",
+      "system": "http://unitsofmeasure.org",
+      "code": "mg/dL"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "observation-21",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-11"
+    },
+    "effectiveDateTime": "2025-09-24T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "4548-4",
+          "display": "Hemoglobin A1c/Hemoglobin.total in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 8.0,
+      "unit": "%",
+      "system": "http://unitsofmeasure.org",
+      "code": "%"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "observation-22",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-11"
+    },
+    "effectiveDateTime": "2026-01-12T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "2339-0",
+          "display": "Glucose [Mass/volume] in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 155,
+      "unit": "mg/dL",
+      "system": "http://unitsofmeasure.org",
+      "code": "mg/dL"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "observation-23",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-12"
+    },
+    "effectiveDateTime": "2025-12-15T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "4548-4",
+          "display": "Hemoglobin A1c/Hemoglobin.total in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 8.3,
+      "unit": "%",
+      "system": "http://unitsofmeasure.org",
+      "code": "%"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "observation-24",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-12"
+    },
+    "effectiveDateTime": "2025-08-27T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "2339-0",
+          "display": "Glucose [Mass/volume] in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 140,
+      "unit": "mg/dL",
+      "system": "http://unitsofmeasure.org",
+      "code": "mg/dL"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "observation-25",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-13"
+    },
+    "effectiveDateTime": "2025-09-02T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "4548-4",
+          "display": "Hemoglobin A1c/Hemoglobin.total in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 7.6,
+      "unit": "%",
+      "system": "http://unitsofmeasure.org",
+      "code": "%"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "observation-26",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-13"
+    },
+    "effectiveDateTime": "2025-09-24T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "2339-0",
+          "display": "Glucose [Mass/volume] in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 109,
+      "unit": "mg/dL",
+      "system": "http://unitsofmeasure.org",
+      "code": "mg/dL"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "observation-27",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-14"
+    },
+    "effectiveDateTime": "2025-11-17T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "4548-4",
+          "display": "Hemoglobin A1c/Hemoglobin.total in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 9.3,
+      "unit": "%",
+      "system": "http://unitsofmeasure.org",
+      "code": "%"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "observation-28",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-14"
+    },
+    "effectiveDateTime": "2025-10-03T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "2339-0",
+          "display": "Glucose [Mass/volume] in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 87,
+      "unit": "mg/dL",
+      "system": "http://unitsofmeasure.org",
+      "code": "mg/dL"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "observation-29",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-15"
+    },
+    "effectiveDateTime": "2025-08-15T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "4548-4",
+          "display": "Hemoglobin A1c/Hemoglobin.total in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 9.4,
+      "unit": "%",
+      "system": "http://unitsofmeasure.org",
+      "code": "%"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "observation-30",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-15"
+    },
+    "effectiveDateTime": "2025-09-04T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "2339-0",
+          "display": "Glucose [Mass/volume] in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 130,
+      "unit": "mg/dL",
+      "system": "http://unitsofmeasure.org",
+      "code": "mg/dL"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "observation-31",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-16"
+    },
+    "effectiveDateTime": "2025-12-14T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "4548-4",
+          "display": "Hemoglobin A1c/Hemoglobin.total in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 8.6,
+      "unit": "%",
+      "system": "http://unitsofmeasure.org",
+      "code": "%"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "observation-32",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-16"
+    },
+    "effectiveDateTime": "2025-09-12T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "2339-0",
+          "display": "Glucose [Mass/volume] in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 183,
+      "unit": "mg/dL",
+      "system": "http://unitsofmeasure.org",
+      "code": "mg/dL"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "observation-33",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-17"
+    },
+    "effectiveDateTime": "2025-09-07T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "4548-4",
+          "display": "Hemoglobin A1c/Hemoglobin.total in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 6.2,
+      "unit": "%",
+      "system": "http://unitsofmeasure.org",
+      "code": "%"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "observation-34",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-17"
+    },
+    "effectiveDateTime": "2025-10-27T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "2339-0",
+          "display": "Glucose [Mass/volume] in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 85,
+      "unit": "mg/dL",
+      "system": "http://unitsofmeasure.org",
+      "code": "mg/dL"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "observation-35",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-18"
+    },
+    "effectiveDateTime": "2025-10-21T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "4548-4",
+          "display": "Hemoglobin A1c/Hemoglobin.total in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 8.2,
+      "unit": "%",
+      "system": "http://unitsofmeasure.org",
+      "code": "%"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "observation-36",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-18"
+    },
+    "effectiveDateTime": "2025-12-12T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "2339-0",
+          "display": "Glucose [Mass/volume] in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 169,
+      "unit": "mg/dL",
+      "system": "http://unitsofmeasure.org",
+      "code": "mg/dL"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "observation-37",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-19"
+    },
+    "effectiveDateTime": "2025-10-20T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "4548-4",
+          "display": "Hemoglobin A1c/Hemoglobin.total in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 7.7,
+      "unit": "%",
+      "system": "http://unitsofmeasure.org",
+      "code": "%"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "observation-38",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-19"
+    },
+    "effectiveDateTime": "2025-12-09T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "2339-0",
+          "display": "Glucose [Mass/volume] in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 98,
+      "unit": "mg/dL",
+      "system": "http://unitsofmeasure.org",
+      "code": "mg/dL"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "observation-39",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-20"
+    },
+    "effectiveDateTime": "2025-09-03T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "4548-4",
+          "display": "Hemoglobin A1c/Hemoglobin.total in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 7.1,
+      "unit": "%",
+      "system": "http://unitsofmeasure.org",
+      "code": "%"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "observation-40",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-20"
+    },
+    "effectiveDateTime": "2025-11-12T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "2339-0",
+          "display": "Glucose [Mass/volume] in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 106,
+      "unit": "mg/dL",
+      "system": "http://unitsofmeasure.org",
+      "code": "mg/dL"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "observation-41",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-21"
+    },
+    "effectiveDateTime": "2025-11-28T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "4548-4",
+          "display": "Hemoglobin A1c/Hemoglobin.total in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 9.4,
+      "unit": "%",
+      "system": "http://unitsofmeasure.org",
+      "code": "%"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "observation-42",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-21"
+    },
+    "effectiveDateTime": "2026-01-19T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "2339-0",
+          "display": "Glucose [Mass/volume] in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 98,
+      "unit": "mg/dL",
+      "system": "http://unitsofmeasure.org",
+      "code": "mg/dL"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "observation-43",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-22"
+    },
+    "effectiveDateTime": "2025-12-08T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "4548-4",
+          "display": "Hemoglobin A1c/Hemoglobin.total in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 8.9,
+      "unit": "%",
+      "system": "http://unitsofmeasure.org",
+      "code": "%"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "observation-44",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-22"
+    },
+    "effectiveDateTime": "2025-11-03T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "2339-0",
+          "display": "Glucose [Mass/volume] in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 137,
+      "unit": "mg/dL",
+      "system": "http://unitsofmeasure.org",
+      "code": "mg/dL"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "observation-45",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-23"
+    },
+    "effectiveDateTime": "2025-12-16T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "4548-4",
+          "display": "Hemoglobin A1c/Hemoglobin.total in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 8.8,
+      "unit": "%",
+      "system": "http://unitsofmeasure.org",
+      "code": "%"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "observation-46",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-23"
+    },
+    "effectiveDateTime": "2025-09-25T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "2339-0",
+          "display": "Glucose [Mass/volume] in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 152,
+      "unit": "mg/dL",
+      "system": "http://unitsofmeasure.org",
+      "code": "mg/dL"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "observation-47",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-24"
+    },
+    "effectiveDateTime": "2025-08-19T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "4548-4",
+          "display": "Hemoglobin A1c/Hemoglobin.total in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 8.5,
+      "unit": "%",
+      "system": "http://unitsofmeasure.org",
+      "code": "%"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "observation-48",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-24"
+    },
+    "effectiveDateTime": "2025-12-18T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "2339-0",
+          "display": "Glucose [Mass/volume] in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 126,
+      "unit": "mg/dL",
+      "system": "http://unitsofmeasure.org",
+      "code": "mg/dL"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "observation-49",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-25"
+    },
+    "effectiveDateTime": "2025-09-13T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "4548-4",
+          "display": "Hemoglobin A1c/Hemoglobin.total in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 9.2,
+      "unit": "%",
+      "system": "http://unitsofmeasure.org",
+      "code": "%"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "observation-50",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-25"
+    },
+    "effectiveDateTime": "2025-10-29T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "2339-0",
+          "display": "Glucose [Mass/volume] in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 148,
+      "unit": "mg/dL",
+      "system": "http://unitsofmeasure.org",
+      "code": "mg/dL"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "observation-51",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-26"
+    },
+    "effectiveDateTime": "2025-09-01T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "4548-4",
+          "display": "Hemoglobin A1c/Hemoglobin.total in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 7.8,
+      "unit": "%",
+      "system": "http://unitsofmeasure.org",
+      "code": "%"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "observation-52",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-26"
+    },
+    "effectiveDateTime": "2025-12-15T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "2339-0",
+          "display": "Glucose [Mass/volume] in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 110,
+      "unit": "mg/dL",
+      "system": "http://unitsofmeasure.org",
+      "code": "mg/dL"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "observation-53",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-27"
+    },
+    "effectiveDateTime": "2026-02-03T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "4548-4",
+          "display": "Hemoglobin A1c/Hemoglobin.total in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 6.7,
+      "unit": "%",
+      "system": "http://unitsofmeasure.org",
+      "code": "%"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "observation-54",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-27"
+    },
+    "effectiveDateTime": "2026-01-24T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "2339-0",
+          "display": "Glucose [Mass/volume] in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 151,
+      "unit": "mg/dL",
+      "system": "http://unitsofmeasure.org",
+      "code": "mg/dL"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "observation-55",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-28"
+    },
+    "effectiveDateTime": "2025-09-22T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "4548-4",
+          "display": "Hemoglobin A1c/Hemoglobin.total in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 8.5,
+      "unit": "%",
+      "system": "http://unitsofmeasure.org",
+      "code": "%"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "observation-56",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-28"
+    },
+    "effectiveDateTime": "2026-01-21T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "2339-0",
+          "display": "Glucose [Mass/volume] in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 87,
+      "unit": "mg/dL",
+      "system": "http://unitsofmeasure.org",
+      "code": "mg/dL"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "observation-57",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-29"
+    },
+    "effectiveDateTime": "2025-08-20T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "4548-4",
+          "display": "Hemoglobin A1c/Hemoglobin.total in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 8.2,
+      "unit": "%",
+      "system": "http://unitsofmeasure.org",
+      "code": "%"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "observation-58",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-29"
+    },
+    "effectiveDateTime": "2025-09-13T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "2339-0",
+          "display": "Glucose [Mass/volume] in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 171,
+      "unit": "mg/dL",
+      "system": "http://unitsofmeasure.org",
+      "code": "mg/dL"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "observation-59",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-30"
+    },
+    "effectiveDateTime": "2025-11-28T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "4548-4",
+          "display": "Hemoglobin A1c/Hemoglobin.total in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 6.5,
+      "unit": "%",
+      "system": "http://unitsofmeasure.org",
+      "code": "%"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "observation-60",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-30"
+    },
+    "effectiveDateTime": "2025-09-03T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "2339-0",
+          "display": "Glucose [Mass/volume] in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 189,
+      "unit": "mg/dL",
+      "system": "http://unitsofmeasure.org",
+      "code": "mg/dL"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "observation-61",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-31"
+    },
+    "effectiveDateTime": "2026-01-10T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "4548-4",
+          "display": "Hemoglobin A1c/Hemoglobin.total in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 8.1,
+      "unit": "%",
+      "system": "http://unitsofmeasure.org",
+      "code": "%"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "observation-62",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-31"
+    },
+    "effectiveDateTime": "2025-09-26T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "2339-0",
+          "display": "Glucose [Mass/volume] in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 111,
+      "unit": "mg/dL",
+      "system": "http://unitsofmeasure.org",
+      "code": "mg/dL"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "observation-63",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-32"
+    },
+    "effectiveDateTime": "2025-09-22T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "4548-4",
+          "display": "Hemoglobin A1c/Hemoglobin.total in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 9.1,
+      "unit": "%",
+      "system": "http://unitsofmeasure.org",
+      "code": "%"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "observation-64",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-32"
+    },
+    "effectiveDateTime": "2026-02-03T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "2339-0",
+          "display": "Glucose [Mass/volume] in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 115,
+      "unit": "mg/dL",
+      "system": "http://unitsofmeasure.org",
+      "code": "mg/dL"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "observation-65",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-33"
+    },
+    "effectiveDateTime": "2026-02-06T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "4548-4",
+          "display": "Hemoglobin A1c/Hemoglobin.total in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 5.9,
+      "unit": "%",
+      "system": "http://unitsofmeasure.org",
+      "code": "%"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "observation-66",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-33"
+    },
+    "effectiveDateTime": "2025-09-14T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "2339-0",
+          "display": "Glucose [Mass/volume] in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 140,
+      "unit": "mg/dL",
+      "system": "http://unitsofmeasure.org",
+      "code": "mg/dL"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "observation-67",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-34"
+    },
+    "effectiveDateTime": "2026-01-15T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "4548-4",
+          "display": "Hemoglobin A1c/Hemoglobin.total in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 6.0,
+      "unit": "%",
+      "system": "http://unitsofmeasure.org",
+      "code": "%"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "observation-68",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-34"
+    },
+    "effectiveDateTime": "2025-08-24T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "2339-0",
+          "display": "Glucose [Mass/volume] in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 101,
+      "unit": "mg/dL",
+      "system": "http://unitsofmeasure.org",
+      "code": "mg/dL"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "observation-69",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-35"
+    },
+    "effectiveDateTime": "2025-11-23T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "4548-4",
+          "display": "Hemoglobin A1c/Hemoglobin.total in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 6.2,
+      "unit": "%",
+      "system": "http://unitsofmeasure.org",
+      "code": "%"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "observation-70",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-35"
+    },
+    "effectiveDateTime": "2025-12-14T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "2339-0",
+          "display": "Glucose [Mass/volume] in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 200,
+      "unit": "mg/dL",
+      "system": "http://unitsofmeasure.org",
+      "code": "mg/dL"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "observation-71",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-36"
+    },
+    "effectiveDateTime": "2025-11-27T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "4548-4",
+          "display": "Hemoglobin A1c/Hemoglobin.total in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 7.1,
+      "unit": "%",
+      "system": "http://unitsofmeasure.org",
+      "code": "%"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "observation-72",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-36"
+    },
+    "effectiveDateTime": "2025-09-05T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "2339-0",
+          "display": "Glucose [Mass/volume] in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 174,
+      "unit": "mg/dL",
+      "system": "http://unitsofmeasure.org",
+      "code": "mg/dL"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "observation-73",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-37"
+    },
+    "effectiveDateTime": "2025-11-12T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "4548-4",
+          "display": "Hemoglobin A1c/Hemoglobin.total in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 9.1,
+      "unit": "%",
+      "system": "http://unitsofmeasure.org",
+      "code": "%"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "observation-74",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-37"
+    },
+    "effectiveDateTime": "2026-01-19T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "2339-0",
+          "display": "Glucose [Mass/volume] in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 119,
+      "unit": "mg/dL",
+      "system": "http://unitsofmeasure.org",
+      "code": "mg/dL"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "observation-75",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-38"
+    },
+    "effectiveDateTime": "2025-09-21T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "4548-4",
+          "display": "Hemoglobin A1c/Hemoglobin.total in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 7.4,
+      "unit": "%",
+      "system": "http://unitsofmeasure.org",
+      "code": "%"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "observation-76",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-38"
+    },
+    "effectiveDateTime": "2025-11-21T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "2339-0",
+          "display": "Glucose [Mass/volume] in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 178,
+      "unit": "mg/dL",
+      "system": "http://unitsofmeasure.org",
+      "code": "mg/dL"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "observation-77",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-39"
+    },
+    "effectiveDateTime": "2025-10-31T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "4548-4",
+          "display": "Hemoglobin A1c/Hemoglobin.total in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 8.6,
+      "unit": "%",
+      "system": "http://unitsofmeasure.org",
+      "code": "%"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "observation-78",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-39"
+    },
+    "effectiveDateTime": "2025-12-28T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "2339-0",
+          "display": "Glucose [Mass/volume] in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 85,
+      "unit": "mg/dL",
+      "system": "http://unitsofmeasure.org",
+      "code": "mg/dL"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "observation-79",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-40"
+    },
+    "effectiveDateTime": "2025-08-16T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "4548-4",
+          "display": "Hemoglobin A1c/Hemoglobin.total in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 8.9,
+      "unit": "%",
+      "system": "http://unitsofmeasure.org",
+      "code": "%"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "observation-80",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-40"
+    },
+    "effectiveDateTime": "2025-09-25T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "2339-0",
+          "display": "Glucose [Mass/volume] in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 118,
+      "unit": "mg/dL",
+      "system": "http://unitsofmeasure.org",
+      "code": "mg/dL"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "observation-81",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-41"
+    },
+    "effectiveDateTime": "2025-11-27T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "4548-4",
+          "display": "Hemoglobin A1c/Hemoglobin.total in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 9.3,
+      "unit": "%",
+      "system": "http://unitsofmeasure.org",
+      "code": "%"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "observation-82",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-41"
+    },
+    "effectiveDateTime": "2025-09-07T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "2339-0",
+          "display": "Glucose [Mass/volume] in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 129,
+      "unit": "mg/dL",
+      "system": "http://unitsofmeasure.org",
+      "code": "mg/dL"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "observation-83",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-42"
+    },
+    "effectiveDateTime": "2025-09-25T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "4548-4",
+          "display": "Hemoglobin A1c/Hemoglobin.total in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 9.0,
+      "unit": "%",
+      "system": "http://unitsofmeasure.org",
+      "code": "%"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "observation-84",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-42"
+    },
+    "effectiveDateTime": "2025-10-21T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "2339-0",
+          "display": "Glucose [Mass/volume] in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 167,
+      "unit": "mg/dL",
+      "system": "http://unitsofmeasure.org",
+      "code": "mg/dL"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "observation-85",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-43"
+    },
+    "effectiveDateTime": "2026-01-30T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "4548-4",
+          "display": "Hemoglobin A1c/Hemoglobin.total in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 7.2,
+      "unit": "%",
+      "system": "http://unitsofmeasure.org",
+      "code": "%"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "observation-86",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-43"
+    },
+    "effectiveDateTime": "2025-12-11T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "2339-0",
+          "display": "Glucose [Mass/volume] in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 186,
+      "unit": "mg/dL",
+      "system": "http://unitsofmeasure.org",
+      "code": "mg/dL"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "observation-87",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-44"
+    },
+    "effectiveDateTime": "2025-08-22T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "4548-4",
+          "display": "Hemoglobin A1c/Hemoglobin.total in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 6.0,
+      "unit": "%",
+      "system": "http://unitsofmeasure.org",
+      "code": "%"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "observation-88",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-44"
+    },
+    "effectiveDateTime": "2025-11-24T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "2339-0",
+          "display": "Glucose [Mass/volume] in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 149,
+      "unit": "mg/dL",
+      "system": "http://unitsofmeasure.org",
+      "code": "mg/dL"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "observation-89",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-45"
+    },
+    "effectiveDateTime": "2025-10-16T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "4548-4",
+          "display": "Hemoglobin A1c/Hemoglobin.total in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 9.0,
+      "unit": "%",
+      "system": "http://unitsofmeasure.org",
+      "code": "%"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "observation-90",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-45"
+    },
+    "effectiveDateTime": "2025-09-02T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "2339-0",
+          "display": "Glucose [Mass/volume] in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 178,
+      "unit": "mg/dL",
+      "system": "http://unitsofmeasure.org",
+      "code": "mg/dL"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "observation-91",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-46"
+    },
+    "effectiveDateTime": "2025-11-06T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "4548-4",
+          "display": "Hemoglobin A1c/Hemoglobin.total in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 9.0,
+      "unit": "%",
+      "system": "http://unitsofmeasure.org",
+      "code": "%"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "observation-92",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-46"
+    },
+    "effectiveDateTime": "2025-09-07T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "2339-0",
+          "display": "Glucose [Mass/volume] in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 80,
+      "unit": "mg/dL",
+      "system": "http://unitsofmeasure.org",
+      "code": "mg/dL"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "observation-93",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-47"
+    },
+    "effectiveDateTime": "2025-11-09T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "4548-4",
+          "display": "Hemoglobin A1c/Hemoglobin.total in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 8.4,
+      "unit": "%",
+      "system": "http://unitsofmeasure.org",
+      "code": "%"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "observation-94",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-47"
+    },
+    "effectiveDateTime": "2026-02-01T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "2339-0",
+          "display": "Glucose [Mass/volume] in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 197,
+      "unit": "mg/dL",
+      "system": "http://unitsofmeasure.org",
+      "code": "mg/dL"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "observation-95",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-48"
+    },
+    "effectiveDateTime": "2025-10-13T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "4548-4",
+          "display": "Hemoglobin A1c/Hemoglobin.total in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 7.9,
+      "unit": "%",
+      "system": "http://unitsofmeasure.org",
+      "code": "%"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "observation-96",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-48"
+    },
+    "effectiveDateTime": "2025-12-12T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "2339-0",
+          "display": "Glucose [Mass/volume] in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 157,
+      "unit": "mg/dL",
+      "system": "http://unitsofmeasure.org",
+      "code": "mg/dL"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "observation-97",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-49"
+    },
+    "effectiveDateTime": "2025-09-10T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "4548-4",
+          "display": "Hemoglobin A1c/Hemoglobin.total in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 6.8,
+      "unit": "%",
+      "system": "http://unitsofmeasure.org",
+      "code": "%"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "observation-98",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-49"
+    },
+    "effectiveDateTime": "2025-10-24T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "2339-0",
+          "display": "Glucose [Mass/volume] in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 164,
+      "unit": "mg/dL",
+      "system": "http://unitsofmeasure.org",
+      "code": "mg/dL"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "observation-99",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-50"
+    },
+    "effectiveDateTime": "2025-09-07T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "4548-4",
+          "display": "Hemoglobin A1c/Hemoglobin.total in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 5.9,
+      "unit": "%",
+      "system": "http://unitsofmeasure.org",
+      "code": "%"
+    }
+  },
+  {
+    "resourceType": "Observation",
+    "id": "observation-100",
+    "status": "final",
+    "subject": {
+      "reference": "Patient/patient-50"
+    },
+    "effectiveDateTime": "2025-12-07T10:25:17+00:00",
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "2339-0",
+          "display": "Glucose [Mass/volume] in Blood"
+        }
+      ]
+    },
+    "valueQuantity": {
+      "value": 141,
+      "unit": "mg/dL",
+      "system": "http://unitsofmeasure.org",
+      "code": "mg/dL"
+    }
+  }
+]

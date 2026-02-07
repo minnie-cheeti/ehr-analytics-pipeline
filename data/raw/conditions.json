@@ -1,0 +1,2452 @@
+[
+  {
+    "resourceType": "Condition",
+    "id": "condition-1",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "E78.5",
+          "display": "Hyperlipidemia"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-1"
+    },
+    "onsetDateTime": "2022-06-29T10:25:17+00:00"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "condition-2",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "I10",
+          "display": "Essential (primary) hypertension"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-1"
+    },
+    "onsetDateTime": "2025-05-17T10:25:17+00:00"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "condition-3",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "E78.5",
+          "display": "Hyperlipidemia"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-2"
+    },
+    "onsetDateTime": "2025-02-04T10:25:17+00:00"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "condition-4",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "E11.9",
+          "display": "Type 2 diabetes mellitus without complications"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-2"
+    },
+    "onsetDateTime": "2025-04-30T10:25:17+00:00"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "condition-5",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "I10",
+          "display": "Essential (primary) hypertension"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-3"
+    },
+    "onsetDateTime": "2021-08-18T10:25:17+00:00"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "condition-6",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "E11.9",
+          "display": "Type 2 diabetes mellitus without complications"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-3"
+    },
+    "onsetDateTime": "2021-10-03T10:25:17+00:00"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "condition-7",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "I10",
+          "display": "Essential (primary) hypertension"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-3"
+    },
+    "onsetDateTime": "2023-01-26T10:25:17+00:00"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "condition-8",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "E11.9",
+          "display": "Type 2 diabetes mellitus without complications"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-4"
+    },
+    "onsetDateTime": "2025-12-13T10:25:17+00:00"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "condition-9",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "E11.9",
+          "display": "Type 2 diabetes mellitus without complications"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-5"
+    },
+    "onsetDateTime": "2023-01-17T10:25:17+00:00"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "condition-10",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "I10",
+          "display": "Essential (primary) hypertension"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-6"
+    },
+    "onsetDateTime": "2024-08-08T10:25:17+00:00"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "condition-11",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "E78.5",
+          "display": "Hyperlipidemia"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-6"
+    },
+    "onsetDateTime": "2022-01-09T10:25:17+00:00"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "condition-12",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "I10",
+          "display": "Essential (primary) hypertension"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-7"
+    },
+    "onsetDateTime": "2022-02-28T10:25:17+00:00"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "condition-13",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "I10",
+          "display": "Essential (primary) hypertension"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-7"
+    },
+    "onsetDateTime": "2023-05-19T10:25:17+00:00"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "condition-14",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "E11.9",
+          "display": "Type 2 diabetes mellitus without complications"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-8"
+    },
+    "onsetDateTime": "2025-03-01T10:25:17+00:00"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "condition-15",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "E11.9",
+          "display": "Type 2 diabetes mellitus without complications"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-8"
+    },
+    "onsetDateTime": "2024-01-09T10:25:17+00:00"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "condition-16",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "I10",
+          "display": "Essential (primary) hypertension"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-9"
+    },
+    "onsetDateTime": "2023-04-20T10:25:17+00:00"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "condition-17",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "E11.9",
+          "display": "Type 2 diabetes mellitus without complications"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-10"
+    },
+    "onsetDateTime": "2022-01-14T10:25:17+00:00"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "condition-18",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "E78.5",
+          "display": "Hyperlipidemia"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-11"
+    },
+    "onsetDateTime": "2024-04-23T10:25:17+00:00"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "condition-19",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "E78.5",
+          "display": "Hyperlipidemia"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-11"
+    },
+    "onsetDateTime": "2024-11-12T10:25:17+00:00"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "condition-20",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "I10",
+          "display": "Essential (primary) hypertension"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-11"
+    },
+    "onsetDateTime": "2025-04-18T10:25:17+00:00"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "condition-21",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "E78.5",
+          "display": "Hyperlipidemia"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-12"
+    },
+    "onsetDateTime": "2024-06-25T10:25:17+00:00"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "condition-22",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "I10",
+          "display": "Essential (primary) hypertension"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-13"
+    },
+    "onsetDateTime": "2024-09-17T10:25:17+00:00"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "condition-23",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "E11.9",
+          "display": "Type 2 diabetes mellitus without complications"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-13"
+    },
+    "onsetDateTime": "2024-07-11T10:25:17+00:00"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "condition-24",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "E11.9",
+          "display": "Type 2 diabetes mellitus without complications"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-13"
+    },
+    "onsetDateTime": "2024-12-09T10:25:17+00:00"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "condition-25",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "E78.5",
+          "display": "Hyperlipidemia"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-14"
+    },
+    "onsetDateTime": "2025-12-16T10:25:17+00:00"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "condition-26",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "I10",
+          "display": "Essential (primary) hypertension"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-14"
+    },
+    "onsetDateTime": "2021-09-14T10:25:17+00:00"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "condition-27",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "E78.5",
+          "display": "Hyperlipidemia"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-14"
+    },
+    "onsetDateTime": "2023-04-17T10:25:17+00:00"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "condition-28",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "E78.5",
+          "display": "Hyperlipidemia"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-15"
+    },
+    "onsetDateTime": "2025-03-07T10:25:17+00:00"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "condition-29",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "E11.9",
+          "display": "Type 2 diabetes mellitus without complications"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-15"
+    },
+    "onsetDateTime": "2021-08-16T10:25:17+00:00"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "condition-30",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "E78.5",
+          "display": "Hyperlipidemia"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-15"
+    },
+    "onsetDateTime": "2021-12-20T10:25:17+00:00"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "condition-31",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "I10",
+          "display": "Essential (primary) hypertension"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-16"
+    },
+    "onsetDateTime": "2021-09-19T10:25:17+00:00"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "condition-32",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "E11.9",
+          "display": "Type 2 diabetes mellitus without complications"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-17"
+    },
+    "onsetDateTime": "2024-05-29T10:25:17+00:00"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "condition-33",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "E11.9",
+          "display": "Type 2 diabetes mellitus without complications"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-17"
+    },
+    "onsetDateTime": "2025-07-15T10:25:17+00:00"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "condition-34",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "I10",
+          "display": "Essential (primary) hypertension"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-18"
+    },
+    "onsetDateTime": "2022-05-01T10:25:17+00:00"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "condition-35",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "E78.5",
+          "display": "Hyperlipidemia"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-18"
+    },
+    "onsetDateTime": "2025-12-12T10:25:17+00:00"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "condition-36",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "E78.5",
+          "display": "Hyperlipidemia"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-19"
+    },
+    "onsetDateTime": "2021-05-21T10:25:17+00:00"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "condition-37",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "E78.5",
+          "display": "Hyperlipidemia"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-20"
+    },
+    "onsetDateTime": "2024-04-05T10:25:17+00:00"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "condition-38",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "E78.5",
+          "display": "Hyperlipidemia"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-20"
+    },
+    "onsetDateTime": "2025-05-19T10:25:17+00:00"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "condition-39",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "E11.9",
+          "display": "Type 2 diabetes mellitus without complications"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-21"
+    },
+    "onsetDateTime": "2024-12-05T10:25:17+00:00"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "condition-40",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "I10",
+          "display": "Essential (primary) hypertension"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-21"
+    },
+    "onsetDateTime": "2023-09-25T10:25:17+00:00"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "condition-41",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "I10",
+          "display": "Essential (primary) hypertension"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-22"
+    },
+    "onsetDateTime": "2024-02-24T10:25:17+00:00"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "condition-42",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "I10",
+          "display": "Essential (primary) hypertension"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-22"
+    },
+    "onsetDateTime": "2024-07-18T10:25:17+00:00"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "condition-43",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "E78.5",
+          "display": "Hyperlipidemia"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-23"
+    },
+    "onsetDateTime": "2023-04-09T10:25:17+00:00"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "condition-44",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "I10",
+          "display": "Essential (primary) hypertension"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-23"
+    },
+    "onsetDateTime": "2025-02-21T10:25:17+00:00"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "condition-45",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "E11.9",
+          "display": "Type 2 diabetes mellitus without complications"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-24"
+    },
+    "onsetDateTime": "2024-08-19T10:25:17+00:00"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "condition-46",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "E78.5",
+          "display": "Hyperlipidemia"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-25"
+    },
+    "onsetDateTime": "2025-09-01T10:25:17+00:00"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "condition-47",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "E11.9",
+          "display": "Type 2 diabetes mellitus without complications"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-25"
+    },
+    "onsetDateTime": "2024-10-07T10:25:17+00:00"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "condition-48",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "I10",
+          "display": "Essential (primary) hypertension"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-26"
+    },
+    "onsetDateTime": "2024-10-07T10:25:17+00:00"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "condition-49",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "I10",
+          "display": "Essential (primary) hypertension"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-26"
+    },
+    "onsetDateTime": "2025-11-29T10:25:17+00:00"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "condition-50",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "E78.5",
+          "display": "Hyperlipidemia"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-27"
+    },
+    "onsetDateTime": "2024-10-06T10:25:17+00:00"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "condition-51",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "E11.9",
+          "display": "Type 2 diabetes mellitus without complications"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-27"
+    },
+    "onsetDateTime": "2025-12-07T10:25:17+00:00"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "condition-52",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "I10",
+          "display": "Essential (primary) hypertension"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-27"
+    },
+    "onsetDateTime": "2025-11-08T10:25:17+00:00"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "condition-53",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "I10",
+          "display": "Essential (primary) hypertension"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-28"
+    },
+    "onsetDateTime": "2024-04-19T10:25:17+00:00"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "condition-54",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "E11.9",
+          "display": "Type 2 diabetes mellitus without complications"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-28"
+    },
+    "onsetDateTime": "2021-02-23T10:25:17+00:00"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "condition-55",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "I10",
+          "display": "Essential (primary) hypertension"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-29"
+    },
+    "onsetDateTime": "2025-06-19T10:25:17+00:00"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "condition-56",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "E78.5",
+          "display": "Hyperlipidemia"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-30"
+    },
+    "onsetDateTime": "2022-04-29T10:25:17+00:00"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "condition-57",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "I10",
+          "display": "Essential (primary) hypertension"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-30"
+    },
+    "onsetDateTime": "2025-03-05T10:25:17+00:00"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "condition-58",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "I10",
+          "display": "Essential (primary) hypertension"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-30"
+    },
+    "onsetDateTime": "2021-10-27T10:25:17+00:00"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "condition-59",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "E78.5",
+          "display": "Hyperlipidemia"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-31"
+    },
+    "onsetDateTime": "2025-10-12T10:25:17+00:00"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "condition-60",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "I10",
+          "display": "Essential (primary) hypertension"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-31"
+    },
+    "onsetDateTime": "2025-04-07T10:25:17+00:00"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "condition-61",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "E11.9",
+          "display": "Type 2 diabetes mellitus without complications"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-32"
+    },
+    "onsetDateTime": "2021-05-18T10:25:17+00:00"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "condition-62",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "I10",
+          "display": "Essential (primary) hypertension"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-32"
+    },
+    "onsetDateTime": "2023-01-24T10:25:17+00:00"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "condition-63",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "I10",
+          "display": "Essential (primary) hypertension"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-33"
+    },
+    "onsetDateTime": "2022-01-02T10:25:17+00:00"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "condition-64",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "I10",
+          "display": "Essential (primary) hypertension"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-33"
+    },
+    "onsetDateTime": "2023-10-16T10:25:17+00:00"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "condition-65",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "I10",
+          "display": "Essential (primary) hypertension"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-33"
+    },
+    "onsetDateTime": "2021-03-20T10:25:17+00:00"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "condition-66",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "I10",
+          "display": "Essential (primary) hypertension"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-34"
+    },
+    "onsetDateTime": "2021-10-23T10:25:17+00:00"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "condition-67",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "E78.5",
+          "display": "Hyperlipidemia"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-34"
+    },
+    "onsetDateTime": "2021-03-10T10:25:17+00:00"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "condition-68",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "E78.5",
+          "display": "Hyperlipidemia"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-35"
+    },
+    "onsetDateTime": "2021-10-03T10:25:17+00:00"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "condition-69",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "E11.9",
+          "display": "Type 2 diabetes mellitus without complications"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-35"
+    },
+    "onsetDateTime": "2025-12-21T10:25:17+00:00"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "condition-70",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "E78.5",
+          "display": "Hyperlipidemia"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-35"
+    },
+    "onsetDateTime": "2021-02-22T10:25:17+00:00"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "condition-71",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "E11.9",
+          "display": "Type 2 diabetes mellitus without complications"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-36"
+    },
+    "onsetDateTime": "2021-02-10T10:25:17+00:00"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "condition-72",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "E11.9",
+          "display": "Type 2 diabetes mellitus without complications"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-36"
+    },
+    "onsetDateTime": "2025-07-21T10:25:17+00:00"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "condition-73",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "I10",
+          "display": "Essential (primary) hypertension"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-36"
+    },
+    "onsetDateTime": "2021-10-03T10:25:17+00:00"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "condition-74",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "E11.9",
+          "display": "Type 2 diabetes mellitus without complications"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-37"
+    },
+    "onsetDateTime": "2021-05-14T10:25:17+00:00"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "condition-75",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "I10",
+          "display": "Essential (primary) hypertension"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-37"
+    },
+    "onsetDateTime": "2022-05-13T10:25:17+00:00"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "condition-76",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "I10",
+          "display": "Essential (primary) hypertension"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-37"
+    },
+    "onsetDateTime": "2024-08-06T10:25:17+00:00"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "condition-77",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "I10",
+          "display": "Essential (primary) hypertension"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-38"
+    },
+    "onsetDateTime": "2024-08-30T10:25:17+00:00"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "condition-78",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "E78.5",
+          "display": "Hyperlipidemia"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-38"
+    },
+    "onsetDateTime": "2022-05-05T10:25:17+00:00"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "condition-79",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "E78.5",
+          "display": "Hyperlipidemia"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-38"
+    },
+    "onsetDateTime": "2023-03-29T10:25:17+00:00"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "condition-80",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "E78.5",
+          "display": "Hyperlipidemia"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-39"
+    },
+    "onsetDateTime": "2024-12-16T10:25:17+00:00"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "condition-81",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "E11.9",
+          "display": "Type 2 diabetes mellitus without complications"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-39"
+    },
+    "onsetDateTime": "2025-04-29T10:25:17+00:00"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "condition-82",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "E11.9",
+          "display": "Type 2 diabetes mellitus without complications"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-39"
+    },
+    "onsetDateTime": "2024-11-16T10:25:17+00:00"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "condition-83",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "I10",
+          "display": "Essential (primary) hypertension"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-40"
+    },
+    "onsetDateTime": "2021-11-07T10:25:17+00:00"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "condition-84",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "E78.5",
+          "display": "Hyperlipidemia"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-40"
+    },
+    "onsetDateTime": "2025-05-08T10:25:17+00:00"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "condition-85",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "I10",
+          "display": "Essential (primary) hypertension"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-41"
+    },
+    "onsetDateTime": "2024-11-19T10:25:17+00:00"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "condition-86",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "E78.5",
+          "display": "Hyperlipidemia"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-42"
+    },
+    "onsetDateTime": "2023-08-10T10:25:17+00:00"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "condition-87",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "E11.9",
+          "display": "Type 2 diabetes mellitus without complications"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-43"
+    },
+    "onsetDateTime": "2022-11-04T10:25:17+00:00"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "condition-88",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "E11.9",
+          "display": "Type 2 diabetes mellitus without complications"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-44"
+    },
+    "onsetDateTime": "2024-09-07T10:25:17+00:00"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "condition-89",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "E78.5",
+          "display": "Hyperlipidemia"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-45"
+    },
+    "onsetDateTime": "2022-02-08T10:25:17+00:00"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "condition-90",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "I10",
+          "display": "Essential (primary) hypertension"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-46"
+    },
+    "onsetDateTime": "2025-04-17T10:25:17+00:00"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "condition-91",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "E78.5",
+          "display": "Hyperlipidemia"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-46"
+    },
+    "onsetDateTime": "2024-11-26T10:25:17+00:00"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "condition-92",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "I10",
+          "display": "Essential (primary) hypertension"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-47"
+    },
+    "onsetDateTime": "2025-08-15T10:25:17+00:00"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "condition-93",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "E78.5",
+          "display": "Hyperlipidemia"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-47"
+    },
+    "onsetDateTime": "2024-08-18T10:25:17+00:00"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "condition-94",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "E11.9",
+          "display": "Type 2 diabetes mellitus without complications"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-47"
+    },
+    "onsetDateTime": "2022-04-30T10:25:17+00:00"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "condition-95",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "E78.5",
+          "display": "Hyperlipidemia"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-48"
+    },
+    "onsetDateTime": "2025-03-22T10:25:17+00:00"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "condition-96",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "I10",
+          "display": "Essential (primary) hypertension"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-48"
+    },
+    "onsetDateTime": "2023-01-29T10:25:17+00:00"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "condition-97",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "E78.5",
+          "display": "Hyperlipidemia"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-49"
+    },
+    "onsetDateTime": "2024-04-11T10:25:17+00:00"
+  },
+  {
+    "resourceType": "Condition",
+    "id": "condition-98",
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "code": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/icd-10",
+          "code": "I10",
+          "display": "Essential (primary) hypertension"
+        }
+      ]
+    },
+    "subject": {
+      "reference": "Patient/patient-50"
+    },
+    "onsetDateTime": "2022-11-27T10:25:17+00:00"
+  }
+]

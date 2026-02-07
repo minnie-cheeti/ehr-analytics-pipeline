@@ -1,0 +1,434 @@
+[
+  {
+    "id": "note-1",
+    "patient_id": "patient-1",
+    "date": "2025-12-09T10:25:17.021811",
+    "text": "Patient reports increased fatigue. Review of labs shows HbA1c 8.8%. Discussed medication adherence. Added Lisinopril for hypertension management."
+  },
+  {
+    "id": "note-2",
+    "patient_id": "patient-2",
+    "date": "2025-11-15T10:25:17.022797",
+    "text": "Patient presents for routine follow-up. Type 2 Diabetes well controlled on Metformin. HbA1c 8.2%. Blood pressure 110/72. Continue current medications."
+  },
+  {
+    "id": "note-3",
+    "patient_id": "patient-2",
+    "date": "2025-11-12T10:25:17.022797",
+    "text": "Patient presents for routine follow-up. Type 2 Diabetes well controlled on Metformin. HbA1c 8.0%. Blood pressure 125/82. Continue current medications."
+  },
+  {
+    "id": "note-4",
+    "patient_id": "patient-3",
+    "date": "2026-01-15T10:25:17.022797",
+    "text": "Patient reports increased fatigue. Review of labs shows HbA1c 8.8%. Discussed medication adherence. Added Lisinopril for hypertension management."
+  },
+  {
+    "id": "note-5",
+    "patient_id": "patient-3",
+    "date": "2025-11-19T10:25:17.022797",
+    "text": "Patient presents for routine follow-up. Type 2 Diabetes well controlled on Metformin. HbA1c 8.3%. Blood pressure 125/80. Continue current medications."
+  },
+  {
+    "id": "note-6",
+    "patient_id": "patient-4",
+    "date": "2025-12-16T10:25:17.022797",
+    "text": "Patient presents for routine follow-up. Type 2 Diabetes well controlled on Metformin. HbA1c 6.3%. Blood pressure 110/86. Continue current medications."
+  },
+  {
+    "id": "note-7",
+    "patient_id": "patient-5",
+    "date": "2026-01-20T10:25:17.022797",
+    "text": "Routine diabetes check. Patient doing well. Recent HbA1c 6.9%. No acute concerns. Schedule follow-up in 3 months."
+  },
+  {
+    "id": "note-8",
+    "patient_id": "patient-5",
+    "date": "2026-01-16T10:25:17.022797",
+    "text": "Routine diabetes check. Patient doing well. Recent HbA1c 6.0%. No acute concerns. Schedule follow-up in 3 months."
+  },
+  {
+    "id": "note-9",
+    "patient_id": "patient-6",
+    "date": "2025-12-28T10:25:17.022797",
+    "text": "Patient presents for routine follow-up. Type 2 Diabetes well controlled on Metformin. HbA1c 7.7%. Blood pressure 140/74. Continue current medications."
+  },
+  {
+    "id": "note-10",
+    "patient_id": "patient-7",
+    "date": "2025-12-15T10:25:17.022797",
+    "text": "Patient reports increased fatigue. Review of labs shows HbA1c 8.3%. Discussed medication adherence. Added Lisinopril for hypertension management."
+  },
+  {
+    "id": "note-11",
+    "patient_id": "patient-8",
+    "date": "2026-01-08T10:25:17.022797",
+    "text": "Patient reports increased fatigue. Review of labs shows HbA1c 7.6%. Discussed medication adherence. Added Lisinopril for hypertension management."
+  },
+  {
+    "id": "note-12",
+    "patient_id": "patient-9",
+    "date": "2026-01-25T10:25:17.022797",
+    "text": "Routine diabetes check. Patient doing well. Recent HbA1c 5.6%. No acute concerns. Schedule follow-up in 3 months."
+  },
+  {
+    "id": "note-13",
+    "patient_id": "patient-9",
+    "date": "2025-12-05T10:25:17.022797",
+    "text": "Patient reports increased fatigue. Review of labs shows HbA1c 7.9%. Discussed medication adherence. Added Lisinopril for hypertension management."
+  },
+  {
+    "id": "note-14",
+    "patient_id": "patient-10",
+    "date": "2025-12-08T10:25:17.022797",
+    "text": "Patient presents for routine follow-up. Type 2 Diabetes well controlled on Metformin. HbA1c 8.3%. Blood pressure 123/83. Continue current medications."
+  },
+  {
+    "id": "note-15",
+    "patient_id": "patient-10",
+    "date": "2025-12-27T10:25:17.022797",
+    "text": "Patient reports increased fatigue. Review of labs shows HbA1c 8.6%. Discussed medication adherence. Added Lisinopril for hypertension management."
+  },
+  {
+    "id": "note-16",
+    "patient_id": "patient-11",
+    "date": "2026-01-08T10:25:17.022797",
+    "text": "Routine diabetes check. Patient doing well. Recent HbA1c 6.4%. No acute concerns. Schedule follow-up in 3 months."
+  },
+  {
+    "id": "note-17",
+    "patient_id": "patient-12",
+    "date": "2026-01-05T10:25:17.022797",
+    "text": "Patient reports increased fatigue. Review of labs shows HbA1c 7.9%. Discussed medication adherence. Added Lisinopril for hypertension management."
+  },
+  {
+    "id": "note-18",
+    "patient_id": "patient-12",
+    "date": "2026-02-01T10:25:17.022797",
+    "text": "Patient presents for routine follow-up. Type 2 Diabetes well controlled on Metformin. HbA1c 6.7%. Blood pressure 134/80. Continue current medications."
+  },
+  {
+    "id": "note-19",
+    "patient_id": "patient-13",
+    "date": "2025-12-08T10:25:17.022797",
+    "text": "Routine diabetes check. Patient doing well. Recent HbA1c 5.9%. No acute concerns. Schedule follow-up in 3 months."
+  },
+  {
+    "id": "note-20",
+    "patient_id": "patient-14",
+    "date": "2025-12-20T10:25:17.023795",
+    "text": "Routine diabetes check. Patient doing well. Recent HbA1c 5.8%. No acute concerns. Schedule follow-up in 3 months."
+  },
+  {
+    "id": "note-21",
+    "patient_id": "patient-15",
+    "date": "2025-12-20T10:25:17.023795",
+    "text": "Routine diabetes check. Patient doing well. Recent HbA1c 5.6%. No acute concerns. Schedule follow-up in 3 months."
+  },
+  {
+    "id": "note-22",
+    "patient_id": "patient-16",
+    "date": "2026-01-26T10:25:17.023795",
+    "text": "Patient reports increased fatigue. Review of labs shows HbA1c 8.0%. Discussed medication adherence. Added Lisinopril for hypertension management."
+  },
+  {
+    "id": "note-23",
+    "patient_id": "patient-16",
+    "date": "2026-01-24T10:25:17.023795",
+    "text": "Routine diabetes check. Patient doing well. Recent HbA1c 6.5%. No acute concerns. Schedule follow-up in 3 months."
+  },
+  {
+    "id": "note-24",
+    "patient_id": "patient-17",
+    "date": "2025-12-20T10:25:17.023795",
+    "text": "Routine diabetes check. Patient doing well. Recent HbA1c 7.0%. No acute concerns. Schedule follow-up in 3 months."
+  },
+  {
+    "id": "note-25",
+    "patient_id": "patient-18",
+    "date": "2026-01-10T10:25:17.023795",
+    "text": "Patient reports increased fatigue. Review of labs shows HbA1c 7.5%. Discussed medication adherence. Added Lisinopril for hypertension management."
+  },
+  {
+    "id": "note-26",
+    "patient_id": "patient-18",
+    "date": "2025-11-14T10:25:17.023795",
+    "text": "Patient reports increased fatigue. Review of labs shows HbA1c 8.3%. Discussed medication adherence. Added Lisinopril for hypertension management."
+  },
+  {
+    "id": "note-27",
+    "patient_id": "patient-19",
+    "date": "2025-11-30T10:25:17.023795",
+    "text": "Patient reports increased fatigue. Review of labs shows HbA1c 8.6%. Discussed medication adherence. Added Lisinopril for hypertension management."
+  },
+  {
+    "id": "note-28",
+    "patient_id": "patient-20",
+    "date": "2026-02-03T10:25:17.023795",
+    "text": "Patient presents for routine follow-up. Type 2 Diabetes well controlled on Metformin. HbA1c 6.8%. Blood pressure 135/80. Continue current medications."
+  },
+  {
+    "id": "note-29",
+    "patient_id": "patient-20",
+    "date": "2025-11-15T10:25:17.023795",
+    "text": "Patient presents for routine follow-up. Type 2 Diabetes well controlled on Metformin. HbA1c 8.3%. Blood pressure 133/73. Continue current medications."
+  },
+  {
+    "id": "note-30",
+    "patient_id": "patient-21",
+    "date": "2026-01-13T10:25:17.023795",
+    "text": "Routine diabetes check. Patient doing well. Recent HbA1c 6.0%. No acute concerns. Schedule follow-up in 3 months."
+  },
+  {
+    "id": "note-31",
+    "patient_id": "patient-22",
+    "date": "2025-12-02T10:25:17.023795",
+    "text": "Patient reports increased fatigue. Review of labs shows HbA1c 9.3%. Discussed medication adherence. Added Lisinopril for hypertension management."
+  },
+  {
+    "id": "note-32",
+    "patient_id": "patient-23",
+    "date": "2026-01-20T10:25:17.023795",
+    "text": "Patient presents for routine follow-up. Type 2 Diabetes well controlled on Metformin. HbA1c 6.7%. Blood pressure 139/75. Continue current medications."
+  },
+  {
+    "id": "note-33",
+    "patient_id": "patient-24",
+    "date": "2026-02-01T10:25:17.023795",
+    "text": "Patient reports increased fatigue. Review of labs shows HbA1c 8.5%. Discussed medication adherence. Added Lisinopril for hypertension management."
+  },
+  {
+    "id": "note-34",
+    "patient_id": "patient-25",
+    "date": "2025-12-01T10:25:17.023795",
+    "text": "Routine diabetes check. Patient doing well. Recent HbA1c 6.2%. No acute concerns. Schedule follow-up in 3 months."
+  },
+  {
+    "id": "note-35",
+    "patient_id": "patient-25",
+    "date": "2025-12-11T10:25:17.023795",
+    "text": "Patient presents for routine follow-up. Type 2 Diabetes well controlled on Metformin. HbA1c 7.6%. Blood pressure 135/73. Continue current medications."
+  },
+  {
+    "id": "note-36",
+    "patient_id": "patient-26",
+    "date": "2025-12-11T10:25:17.023795",
+    "text": "Patient presents for routine follow-up. Type 2 Diabetes well controlled on Metformin. HbA1c 7.3%. Blood pressure 133/79. Continue current medications."
+  },
+  {
+    "id": "note-37",
+    "patient_id": "patient-26",
+    "date": "2026-01-30T10:25:17.023795",
+    "text": "Patient reports increased fatigue. Review of labs shows HbA1c 9.5%. Discussed medication adherence. Added Lisinopril for hypertension management."
+  },
+  {
+    "id": "note-38",
+    "patient_id": "patient-27",
+    "date": "2026-01-27T10:25:17.023795",
+    "text": "Patient presents for routine follow-up. Type 2 Diabetes well controlled on Metformin. HbA1c 7.2%. Blood pressure 139/71. Continue current medications."
+  },
+  {
+    "id": "note-39",
+    "patient_id": "patient-28",
+    "date": "2026-02-04T10:25:17.023795",
+    "text": "Patient reports increased fatigue. Review of labs shows HbA1c 9.5%. Discussed medication adherence. Added Lisinopril for hypertension management."
+  },
+  {
+    "id": "note-40",
+    "patient_id": "patient-29",
+    "date": "2025-11-23T10:25:17.023795",
+    "text": "Patient reports increased fatigue. Review of labs shows HbA1c 8.4%. Discussed medication adherence. Added Lisinopril for hypertension management."
+  },
+  {
+    "id": "note-41",
+    "patient_id": "patient-30",
+    "date": "2025-12-07T10:25:17.024792",
+    "text": "Patient presents for routine follow-up. Type 2 Diabetes well controlled on Metformin. HbA1c 6.6%. Blood pressure 110/80. Continue current medications."
+  },
+  {
+    "id": "note-42",
+    "patient_id": "patient-31",
+    "date": "2026-01-02T10:25:17.024792",
+    "text": "Patient reports increased fatigue. Review of labs shows HbA1c 8.9%. Discussed medication adherence. Added Lisinopril for hypertension management."
+  },
+  {
+    "id": "note-43",
+    "patient_id": "patient-31",
+    "date": "2026-02-05T10:25:17.024792",
+    "text": "Patient presents for routine follow-up. Type 2 Diabetes well controlled on Metformin. HbA1c 8.2%. Blood pressure 110/75. Continue current medications."
+  },
+  {
+    "id": "note-44",
+    "patient_id": "patient-32",
+    "date": "2026-01-28T10:25:17.024792",
+    "text": "Routine diabetes check. Patient doing well. Recent HbA1c 5.5%. No acute concerns. Schedule follow-up in 3 months."
+  },
+  {
+    "id": "note-45",
+    "patient_id": "patient-33",
+    "date": "2025-12-23T10:25:17.024792",
+    "text": "Patient reports increased fatigue. Review of labs shows HbA1c 7.9%. Discussed medication adherence. Added Lisinopril for hypertension management."
+  },
+  {
+    "id": "note-46",
+    "patient_id": "patient-33",
+    "date": "2026-01-31T10:25:17.024792",
+    "text": "Patient presents for routine follow-up. Type 2 Diabetes well controlled on Metformin. HbA1c 7.7%. Blood pressure 130/74. Continue current medications."
+  },
+  {
+    "id": "note-47",
+    "patient_id": "patient-34",
+    "date": "2025-11-21T10:25:17.024792",
+    "text": "Patient presents for routine follow-up. Type 2 Diabetes well controlled on Metformin. HbA1c 6.2%. Blood pressure 129/86. Continue current medications."
+  },
+  {
+    "id": "note-48",
+    "patient_id": "patient-34",
+    "date": "2026-01-29T10:25:17.024792",
+    "text": "Routine diabetes check. Patient doing well. Recent HbA1c 5.6%. No acute concerns. Schedule follow-up in 3 months."
+  },
+  {
+    "id": "note-49",
+    "patient_id": "patient-35",
+    "date": "2025-12-09T10:25:17.024792",
+    "text": "Patient presents for routine follow-up. Type 2 Diabetes well controlled on Metformin. HbA1c 7.6%. Blood pressure 113/73. Continue current medications."
+  },
+  {
+    "id": "note-50",
+    "patient_id": "patient-36",
+    "date": "2025-11-19T10:25:17.024792",
+    "text": "Routine diabetes check. Patient doing well. Recent HbA1c 6.2%. No acute concerns. Schedule follow-up in 3 months."
+  },
+  {
+    "id": "note-51",
+    "patient_id": "patient-36",
+    "date": "2025-11-29T10:25:17.024792",
+    "text": "Patient reports increased fatigue. Review of labs shows HbA1c 8.4%. Discussed medication adherence. Added Lisinopril for hypertension management."
+  },
+  {
+    "id": "note-52",
+    "patient_id": "patient-37",
+    "date": "2026-01-19T10:25:17.024792",
+    "text": "Routine diabetes check. Patient doing well. Recent HbA1c 6.8%. No acute concerns. Schedule follow-up in 3 months."
+  },
+  {
+    "id": "note-53",
+    "patient_id": "patient-38",
+    "date": "2026-01-16T10:25:17.024792",
+    "text": "Patient reports increased fatigue. Review of labs shows HbA1c 9.2%. Discussed medication adherence. Added Lisinopril for hypertension management."
+  },
+  {
+    "id": "note-54",
+    "patient_id": "patient-38",
+    "date": "2026-01-16T10:25:17.024792",
+    "text": "Patient presents for routine follow-up. Type 2 Diabetes well controlled on Metformin. HbA1c 7.2%. Blood pressure 130/75. Continue current medications."
+  },
+  {
+    "id": "note-55",
+    "patient_id": "patient-39",
+    "date": "2026-01-21T10:25:17.024792",
+    "text": "Routine diabetes check. Patient doing well. Recent HbA1c 6.7%. No acute concerns. Schedule follow-up in 3 months."
+  },
+  {
+    "id": "note-56",
+    "patient_id": "patient-40",
+    "date": "2025-12-30T10:25:17.024792",
+    "text": "Patient presents for routine follow-up. Type 2 Diabetes well controlled on Metformin. HbA1c 6.6%. Blood pressure 135/84. Continue current medications."
+  },
+  {
+    "id": "note-57",
+    "patient_id": "patient-40",
+    "date": "2026-01-22T10:25:17.024792",
+    "text": "Routine diabetes check. Patient doing well. Recent HbA1c 5.6%. No acute concerns. Schedule follow-up in 3 months."
+  },
+  {
+    "id": "note-58",
+    "patient_id": "patient-41",
+    "date": "2026-01-27T10:25:17.024792",
+    "text": "Routine diabetes check. Patient doing well. Recent HbA1c 6.1%. No acute concerns. Schedule follow-up in 3 months."
+  },
+  {
+    "id": "note-59",
+    "patient_id": "patient-41",
+    "date": "2025-12-17T10:25:17.024792",
+    "text": "Patient presents for routine follow-up. Type 2 Diabetes well controlled on Metformin. HbA1c 6.6%. Blood pressure 136/85. Continue current medications."
+  },
+  {
+    "id": "note-60",
+    "patient_id": "patient-42",
+    "date": "2025-11-26T10:25:17.024792",
+    "text": "Patient presents for routine follow-up. Type 2 Diabetes well controlled on Metformin. HbA1c 6.5%. Blood pressure 134/70. Continue current medications."
+  },
+  {
+    "id": "note-61",
+    "patient_id": "patient-42",
+    "date": "2025-12-04T10:25:17.024792",
+    "text": "Patient presents for routine follow-up. Type 2 Diabetes well controlled on Metformin. HbA1c 8.4%. Blood pressure 126/74. Continue current medications."
+  },
+  {
+    "id": "note-62",
+    "patient_id": "patient-43",
+    "date": "2025-11-15T10:25:17.024792",
+    "text": "Patient presents for routine follow-up. Type 2 Diabetes well controlled on Metformin. HbA1c 7.4%. Blood pressure 111/73. Continue current medications."
+  },
+  {
+    "id": "note-63",
+    "patient_id": "patient-43",
+    "date": "2026-02-01T10:25:17.024792",
+    "text": "Patient reports increased fatigue. Review of labs shows HbA1c 8.2%. Discussed medication adherence. Added Lisinopril for hypertension management."
+  },
+  {
+    "id": "note-64",
+    "patient_id": "patient-44",
+    "date": "2026-01-12T10:25:17.024792",
+    "text": "Patient reports increased fatigue. Review of labs shows HbA1c 7.6%. Discussed medication adherence. Added Lisinopril for hypertension management."
+  },
+  {
+    "id": "note-65",
+    "patient_id": "patient-45",
+    "date": "2025-11-17T10:25:17.024792",
+    "text": "Routine diabetes check. Patient doing well. Recent HbA1c 6.8%. No acute concerns. Schedule follow-up in 3 months."
+  },
+  {
+    "id": "note-66",
+    "patient_id": "patient-46",
+    "date": "2025-12-31T10:25:17.024792",
+    "text": "Routine diabetes check. Patient doing well. Recent HbA1c 5.8%. No acute concerns. Schedule follow-up in 3 months."
+  },
+  {
+    "id": "note-67",
+    "patient_id": "patient-47",
+    "date": "2026-01-10T10:25:17.025798",
+    "text": "Patient presents for routine follow-up. Type 2 Diabetes well controlled on Metformin. HbA1c 6.2%. Blood pressure 137/71. Continue current medications."
+  },
+  {
+    "id": "note-68",
+    "patient_id": "patient-47",
+    "date": "2026-01-28T10:25:17.025798",
+    "text": "Patient presents for routine follow-up. Type 2 Diabetes well controlled on Metformin. HbA1c 7.5%. Blood pressure 122/73. Continue current medications."
+  },
+  {
+    "id": "note-69",
+    "patient_id": "patient-48",
+    "date": "2026-01-30T10:25:17.025798",
+    "text": "Routine diabetes check. Patient doing well. Recent HbA1c 6.9%. No acute concerns. Schedule follow-up in 3 months."
+  },
+  {
+    "id": "note-70",
+    "patient_id": "patient-49",
+    "date": "2026-01-08T10:25:17.025798",
+    "text": "Patient reports increased fatigue. Review of labs shows HbA1c 8.1%. Discussed medication adherence. Added Lisinopril for hypertension management."
+  },
+  {
+    "id": "note-71",
+    "patient_id": "patient-50",
+    "date": "2026-01-16T10:25:17.025798",
+    "text": "Patient presents for routine follow-up. Type 2 Diabetes well controlled on Metformin. HbA1c 6.3%. Blood pressure 134/84. Continue current medications."
+  },
+  {
+    "id": "note-72",
+    "patient_id": "patient-50",
+    "date": "2025-11-25T10:25:17.025798",
+    "text": "Patient reports increased fatigue. Review of labs shows HbA1c 8.4%. Discussed medication adherence. Added Lisinopril for hypertension management."
+  }
+]

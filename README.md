@@ -19,7 +19,7 @@ End-to-end data pipeline transforming raw FHIR healthcare data into analytics-re
 
 ## Architecture
 
-![EHR Analytics Pipeline Architecture](docs/ehr-architecture.diagram)
+![EHR Analytics Pipeline Architecture](docs/architecture-diagram.png)
 
 *End-to-end data transformation from synthetic FHIR generation through dbt staging and marts to analytics-ready clinical trial cohorts.*
 
@@ -154,5 +154,5 @@ graph TD
 ## Future Enhancements
 
 LLM-powered entity extraction from clinical notes
-Dagster orchestration for scheduled pipeline runs
+Dagster orchestration for scheduled pipeline runs 
 
